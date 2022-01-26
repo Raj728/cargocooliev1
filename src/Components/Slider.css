@@ -1,0 +1,363 @@
+.carousel-item {
+  height: 100%;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.slideImg{
+  width: 100%;
+}
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: black;
+  opacity: 0.7;
+}
+
+/* 
+@media screen and (min-width: 300px) and (max-width: 731px) {
+  .carousel-caption {
+    display: block !important;
+    left: -2%;
+    right: 45%;
+    text-align: center;
+    padding-left: -10px;
+    padding-right: 20px;
+  margin-bottom: -20px;
+  text-size-adjust: 10px;
+  margin-top: 400px;
+    
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .carousel-item{
+ width: 350%;
+  }
+}
+
+@media only screen and (max-width: 767px)
+ {
+.carousel-caption h5 {
+  font-size: 20px;
+  line-height: 35px;
+  padding-right: 200px;
+  padding-left: 1%;
+  margin-right: 90px;
+}
+  
+}
+
+@media only screen and (max-width: 767px)
+ {
+.carousel-caption p {
+  font-size: 20px;
+  padding-right: 85px;
+  padding-left:20px ;
+  margin-right: 220px;
+  padding-top: 10px;
+}
+  
+}
+
+@media only screen and (max-width: 767px) {
+  .slider-btn .btn-2{
+    width: 50%;
+    margin-left: -274px;
+    margin-bottom: -330px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .slider-btn .btn-1{
+    width: 50%;
+    margin-left: -300px;
+    margin-bottom: -200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .carousel-caption {
+    padding-left: 100px;
+    padding-right: 100px;
+     
+  }
+} */
+
+.carousel-caption {
+  padding-left: 100px;
+  padding-right: 100px;
+  /* margin-bottom: 50px; */
+  margin-top: 100px;
+  
+
+}
+
+.carousel-caption h5 {
+  font-size: 55px;
+  font-weight: 500;
+  font-family: initial;
+margin-bottom: 10px;  
+padding-top: 100px;
+}
+
+.carousel-caption p {
+  font-size: 22px;
+  size: 30px;
+  top: 5rem;
+  color: white;
+  margin-bottom: 80px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+/* ------Navbar------ */
+
+.navbar-nav a {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+}
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-nav {
+  text-align: center;
+}
+.nav-link {
+  padding: 0.2rem 1rem;
+}
+.nav-link.active,
+.nav-link:focus {
+  color: #fff;
+}
+.navbar-toggler {
+  margin-top: -55px;
+  padding: 1px 4px;
+  font-size: 15px;
+  line-height: 0.3;
+  background: #fff;
+  margin-right: 30px;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.d-block w-100 {
+  height: 80vh;
+}
+@media only screen and (max-width: 767px) {
+  .navbar-nav.ml-auto {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  
+
+  .navbar-nav a {
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+
+.slider-btn .btn-1 {
+  background-color: skyblue;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-right: 15px;
+  border-radius: 10px;
+  /* margin-top: 10px; */
+  margin-bottom: 220px;
+}
+
+.slider-btn .btn-2 {
+  color: white;
+  background-color: red;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-right: 15px;
+  border-radius: 10px;
+  /* margin-top: 10px; */
+margin-bottom: 220px;
+}
+
+/* --------Mobile View-------- */
+@media (max-width: 767px){
+
+  .whatsapp_float{
+    display: block !important;
+    position: fixed;
+    bottom: 4px;
+    left: 1px;
+    width: 5px;
+  }
+
+
+  .carousel-caption{
+    display: block !important;
+    text-align: center;
+    
+  
+  }
+
+  .slideImg{
+    width: 360%;
+  }
+
+  .carousel-caption h5{
+    /* font-size: 50px;
+    line-height: 70px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: -80px;
+    text-align: center; */
+    font-size: 40px;
+    display: flex;
+    margin: -70px;
+    margin-bottom: -120px;
+   
+
+  }
+
+  .carousel-caption p{
+    display: flex;
+    line-height: 27px;
+    margin-left: -13px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 130px;
+
+  }
+
+  .slider-btn .btn-1 {
+    /* padding-right: 120px;
+    margin-right: 10px;
+    margin-left: -40px;
+    margin-top: -120px;
+    text-align: center;
+    display: flex; */
+margin-bottom: 20px;
+     padding-right: 120px;
+     margin-right: 15px;
+     margin-left: -45px;
+     padding-left: 25px;
+   
+  }
+
+  .slider-btn .btn-2 {
+    /* padding-right: 120px;
+    margin-right: 10px;
+    margin-left: -40px;
+    text-align: center;
+    display: flex; */
+    margin-bottom: 25px;
+     padding-right: 120px;
+     margin-right: 10px;
+     margin-left: -45px;
+     margin-top: -2px;
+     padding-left: 25px;
+  }
+
+  .lead {
+      font-size: 18px;
+      margin-top: -25px;
+    }
+
+  .aboutBottom {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: -10px;
+  }
+
+}
+
+/* ------------Ipad Pro---------- */
+
+@media screen and (min-width: 1024px) and (max-width: 1366px){
+  .carousel-caption{
+    display: block !important;
+    text-align: center;
+  
+  }
+
+  .carousel-caption h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .slider-btn .btn-1{
+    margin-bottom: 40px;
+  }
+  .slider-btn .btn-2 {
+  margin-bottom: 40px;
+  }
+}
+
+/* -----Ipad----- */
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .carousel-caption{
+    display: block !important;
+    text-align: center;
+  
+  }
+
+  .carousel-caption h5{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .carousel-caption p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
+
+  .slider-btn .btn-1{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 15px;
+    width: auto;
+  }
+  .slider-btn .btn-2 {
+  margin-bottom: 20px;
+  width: auto;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+  }
+}

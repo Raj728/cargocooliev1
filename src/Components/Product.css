@@ -1,0 +1,9 @@
+.product{
+    margin-top: 6%;
+}
+.whatsapp_float{
+    position: fixed;
+    bottom: 40px;
+    left: 1380px;
+    width: 50px;
+  }
